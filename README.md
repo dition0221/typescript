@@ -12,13 +12,13 @@ TypeScript에 대해 배워봅니다.
 노마드 코더 정책 상 강의요약은 괜찮으나, 코드와 필기는 공개적인 곳에 올리면 안 됨.  
 필기 요약지는 암호화된 .zip 파일로 저장함.
 
-- **23-05-29** : #1.1 ~ #2.1 / Introduction, Type system
+- **23-05-29** : #1.1 ~ #2.1 / Introduction, Type system (+ Quiz)
   - TypeScript : JavaScript를 기반으로 만들어진 강타입 프로그래밍 언어
     - JavaScript의 여러 문제를 해결 및 보완
     - TypeScript를 컴파일 시 JavaScript로 변환
   - 타입 추론(Type Inference) : 해당 변수의 타입을 추론해 미리 에러를 막음
     - 명시적 기본형 : 'const/let 변수명 : 타입명 = 값'
-- **23-05-30** : #2.2 ~ #2.4 / Type of TypeScript
+- **23-05-30** : #2.2 ~ #2.4 / Type of TypeScript (+ Quiz)
   - optional parameter
     - '?'기호를 사용 (ex. age?: number)
     - 명시한 데이터타입 | undefined
@@ -40,3 +40,20 @@ TypeScript에 대해 배워봅니다.
   - never : 함수가 절대 return하지 않을 때 발생함 / 보통 직접 지정하지 않음 (TypeScript가 자동으로 인식)
     - 함수에서 예외(exception)가 발생할 때
     - 타입이 2가지 일 수도 있는 상황에서도 발생할 수 있음
+- **23-05-31** : #3.0 ~ #3.1 / Function(1) (+ Quiz)
+  - call signature : 함수의 매개변수와 반환값의 타입을 지정함
+  - overloading : 함수가 서로 다른 여러 개의 call signature를 가지고 있을 때 발생
+
+---
+
+- **23-06-01** : #3.2 ~ #3.4 / Function(2) (+ Code Challenge)
+- **23-06-02** : #4.0 ~ #4.1 (+ Code Challenge(2 days)[1st day])
+- **23-06-03** : #4.0 ~ #4.1 (+ Code Challenge(2 days)[2nd day])
+
+- **23-06-05** : #4.2 ~ #4.4 (+ Quiz)
+- **23-06-06** : #4.5 (+ Code Challenge(2 days)[1st day])
+- **23-06-07** : #4.5 (+ Code Challenge(2 days)[2nd day])
+- **23-06-08** : #5.0 ~ #5.4 (+ Quiz)
+- **23-06-09** : #5.5 ~ #5.8 (+ Final Code Challenge(3 days)[1st day])
+- **23-06-10** : (+ Final Code Challenge(3 days)[2nd day])
+- **23-06-11** : (+ Final Code Challenge(3 days)[3rd day])
