@@ -43,10 +43,14 @@ TypeScript에 대해 배워봅니다.
 - **23-05-31** : #3.0 ~ #3.1 / Function(1) (+ Quiz)
   - call signature : 함수의 매개변수와 반환값의 타입을 지정함
   - overloading : 함수가 서로 다른 여러 개의 call signature를 가지고 있을 때 발생
+- **23-06-01** : #3.2 ~ #3.4 / Function(2) (+ Code Challenge)
+  - 다형성(polymorphism) : 여러 타입을 받아들임으로써 여러 형태를 가지는 것
+  - 제네릭(generic) 타입 : 선언 시점이 아니라 생성 시점에 타입을 명시하여 하나의 타입만이 아닌 다양한 타입을 사용할 수 있도록 하는 기법
+    - TypeScript가 해당 변수의 타입을 추론해 개발자가 요구한 대로 signature를 생성해줄 수 있는 도구
+    - 'generic'은 타입 정보를 알 수 있고, TypeScript로부터 보호를 받을 수 있다는 점이 'any'타입과는 다른점
 
 ---
 
-- **23-06-01** : #3.2 ~ #3.4 / Function(2) (+ Code Challenge)
 - **23-06-02** : #4.0 ~ #4.1 (+ Code Challenge(2 days)[1st day])
 - **23-06-03** : #4.0 ~ #4.1 (+ Code Challenge(2 days)[2nd day])
 
