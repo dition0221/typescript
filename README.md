@@ -48,11 +48,13 @@ TypeScript에 대해 배워봅니다.
   - 제네릭(generic) 타입 : 선언 시점이 아니라 생성 시점에 타입을 명시하여 하나의 타입만이 아닌 다양한 타입을 사용할 수 있도록 하는 기법
     - TypeScript가 해당 변수의 타입을 추론해 개발자가 요구한 대로 signature를 생성해줄 수 있는 도구
     - 'generic'은 타입 정보를 알 수 있고, TypeScript로부터 보호를 받을 수 있다는 점이 'any'타입과는 다른점
+- **23-06-03** : #4.0 ~ #4.1 / Class (+ Code Challenge(2 days)[2nd day])
+  - 객체지향 프로그래밍(OOP; Object-Oriented Programming)
+  - class, instance, abstract, extends, inheritance, {private, protected, public}
+  - 키-값을 가지는 object 타입을 선언하는 방법
+    - type 타입명 = { [키명:타입]: 타입 }
 
 ---
-
-- **23-06-02** : #4.0 ~ #4.1 (+ Code Challenge(2 days)[1st day])
-- **23-06-03** : #4.0 ~ #4.1 (+ Code Challenge(2 days)[2nd day])
 
 - **23-06-05** : #4.2 ~ #4.4 (+ Quiz)
 - **23-06-06** : #4.5 (+ Code Challenge(2 days)[1st day])
