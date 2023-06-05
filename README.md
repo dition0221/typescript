@@ -53,10 +53,24 @@ TypeScript에 대해 배워봅니다.
   - class, instance, abstract, extends, inheritance, {private, protected, public}
   - 키-값을 가지는 object 타입을 선언하는 방법
     - type 타입명 = { [키명:타입]: 타입 }
+- **23-06-05** : #4.2 ~ #4.4 / Interface (+ Quiz)
+  - readonly, type 선언 시 특정 값을 가지도록 할 수 있음
+  - static method
+    - class에 직접적으로 연결되는 method
+    - class의 instance를 생성하지 않고, class 자체에서 호출이 가능한 method
+  - interface
+    - object의 모양을 특정해주기 위한 방법 중 하나 (객체 지향 프로그래밍(OOP)에 더 가깝게 사용 가능)
+    - JavaScript 코드로 compile 시 코드로 바뀌지 않고 사라짐 (TypeScript에서만 존재)
+    - class와 닮아서, 다른 interface를 'extends' 키워드로 상속받을 수 있음
+    - 같은 타입명으로 여러 개의 interface를 만든다면, TypeScript가 자동적으로 하나의 interface로 합쳐줌
+    - 추상 클래스(abstract class)를 대신 사용해 청사진을 만들 수 있음
+      - class가 interface를 상속 받을 시 'implements' 키워드를 사용해야 함
+      - 상속 받은 프로퍼티는 public만 사용 가능 (private, protected 사용 불가)
+      - 여러 개의 interface를 상속받을 수 있음
+    - interface를 type으로도 사용 가능
 
 ---
 
-- **23-06-05** : #4.2 ~ #4.4 (+ Quiz)
 - **23-06-06** : #4.5 (+ Code Challenge(2 days)[1st day])
 - **23-06-07** : #4.5 (+ Code Challenge(2 days)[2nd day])
 - **23-06-08** : #5.0 ~ #5.4 (+ Quiz)
