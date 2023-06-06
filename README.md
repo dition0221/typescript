@@ -68,10 +68,11 @@ TypeScript에 대해 배워봅니다.
       - 상속 받은 프로퍼티는 public만 사용 가능 (private, protected 사용 불가)
       - 여러 개의 interface를 상속받을 수 있음
     - interface를 type으로도 사용 가능
+- **23-06-06** : #4.5 / Polymorphism (+ Code Challenge(2 days)[1st day])
+  - 다형성(Polymorphism)
 
 ---
 
-- **23-06-06** : #4.5 (+ Code Challenge(2 days)[1st day])
 - **23-06-07** : #4.5 (+ Code Challenge(2 days)[2nd day])
 - **23-06-08** : #5.0 ~ #5.4 (+ Quiz)
 - **23-06-09** : #5.5 ~ #5.8 (+ Final Code Challenge(3 days)[1st day])
