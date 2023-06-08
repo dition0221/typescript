@@ -70,11 +70,27 @@ TypeScript에 대해 배워봅니다.
     - interface를 type으로도 사용 가능
 - **23-06-06** : #4.5 / Polymorphism (+ Code Challenge(2 days)[1st day])
   - 다형성(Polymorphism)
+- **23-06-08** : #5.0 ~ #5.4 / Config TypeScript (+ Quiz)
+  - TypeScript 패키지 설치, tsconfig.json 파일, tsc
+  - tsconfig.json
+    - include : compile할 TypeScript 디렉토리
+    - compilerOptions
+      - outDir : compile 후 생성될 JavaScript 파일의 위치(directory)를 지정
+      - target : compile 시 사용할 JavaScript의 버전을 지정
+      - lib : 합쳐진 라이브러리(library)의 정의 파일을 특정해주는 역할
+        - 코드가 어디에서 동작할지를 알려주는 것
+        - 자동완성 및 설명 기능을 제공
+        - 정의 파일 : JavaScript 코드의 모양을 TypeScript에게 설명해주는 파일
+          - .d.ts의 확장자 파일에서 call signature로 데이터 타입만 작성하면 됨(구현 x)
+      - allowJS : JavaScript파일도 확인할 것인지 허용 여부 [T/F]
+      - esModuleInterop : import구문을 어디서든지 사용 가능할지의 여부 [T/F]
+  - JavaScript파일이 TypeScript의 보호를 받는 방법
+    - tsconfig.json - compilerOptions - allowJS: true
+    - JS파일에서 '// @ts-check'주석을 추가
+    - 함수의 바로 위에 코멘트(/\*\* \*/)로 call signature 추가하기
 
 ---
 
-- **23-06-07** : #4.5 (+ Code Challenge(2 days)[2nd day])
-- **23-06-08** : #5.0 ~ #5.4 (+ Quiz)
 - **23-06-09** : #5.5 ~ #5.8 (+ Final Code Challenge(3 days)[1st day])
 - **23-06-10** : (+ Final Code Challenge(3 days)[2nd day])
 - **23-06-11** : (+ Final Code Challenge(3 days)[3rd day])
