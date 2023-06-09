@@ -88,9 +88,9 @@ TypeScript에 대해 배워봅니다.
     - tsconfig.json - compilerOptions - allowJS: true
     - JS파일에서 '// @ts-check'주석을 추가
     - 함수의 바로 위에 코멘트(/\*\* \*/)로 call signature 추가하기
+- **23-06-09** : (+ Final Code Challenge(3 days)[1st day])
+  - JSDoc파일을 TypeScript 정의 파일(.d.ts)로 만들기
 
 ---
 
-- **23-06-09** : #5.5 ~ #5.8 (+ Final Code Challenge(3 days)[1st day])
-- **23-06-10** : (+ Final Code Challenge(3 days)[2nd day])
-- **23-06-11** : (+ Final Code Challenge(3 days)[3rd day])
+#5.5 ~ #5.8
