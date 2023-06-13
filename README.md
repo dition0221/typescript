@@ -90,7 +90,9 @@ TypeScript에 대해 배워봅니다.
     - 함수의 바로 위에 코멘트(/\*\* \*/)로 call signature 추가하기
 - **23-06-09** : (+ Final Code Challenge(3 days)[1st day])
   - JSDoc파일을 TypeScript 정의 파일(.d.ts)로 만들기
-
----
-
-#5.5 ~ #5.8
+- **23-06-13** : #5.5 ~ #5.8 / Blockchain
+  - 패키지
+    - ts-node 패키지 : build없이 TS를 실행할 수 있게하는 패키지
+    - nodemon 패키지 : 변경사항이 있을 시 자동으로 script를 재실행 시켜주는 패키지
+    - crypto 패키지 : Hash값을 생성할 수 있는 패키지
+  - 객체지향(class)과 Hash를 이용해서 블록체인 만들기
